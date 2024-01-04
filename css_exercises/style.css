@@ -1,4 +1,4 @@
-div{
+.style{
     background-color: red;
     font-size: 32px;
     font-weight: bold;
@@ -25,4 +25,13 @@ div{
     background-color: lightgreen;
     font-weight: bold;
     color: black;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 28px;
+
 }
