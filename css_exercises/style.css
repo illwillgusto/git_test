@@ -35,3 +35,18 @@
     font-size: 28px;
 
 }
+
+.firstel,
+.secondel {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.firstel {
+    background-color: black;
+    color: white;
+}
+
+.secondel {
+    background-color: yellow;
+}
