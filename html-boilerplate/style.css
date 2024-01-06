@@ -1,0 +1,15 @@
+* {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    background-color: yellow;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    from {background-color: yellow;}
+    to {background-color: greenyellow;}
+}
