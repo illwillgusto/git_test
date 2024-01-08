@@ -1,0 +1,41 @@
+.flex-containershrink,
+.flex-containergrow {
+    display: flex;
+}
+
+.flex-containershrink div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 250px;
+    flex: 1 1 auto;
+    
+}
+
+/* if you don't want a item to ignore the flex-shrink rule that's being set, remember
+to set the flex-basis to 'auto', if it is set to 0 it will ignore the item's width 
+Using auto tells flex-basis item to check for a width declaration */
+
+.flex-containershrink .two {
+    flex-shrink: 0;
+
+}
+
+.flex-containergrow div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1 1 0%;
+    
+}
+
+/* this is flex-grow being used, width isn't applied in this case and div two is larger than 1 & 3 */
+
+.flex-containergrow .two {
+    flex: 2 1 0%;
+
+}
+
+/* flex-grow - tells a flex item how big it is compared to the other flex items
+flex-shrink - tells if a flex item will shrink or won't shrink evening with the other items in the container
+flex-basis - gives the default size to the flex items in the container, auto will honor the height/width */

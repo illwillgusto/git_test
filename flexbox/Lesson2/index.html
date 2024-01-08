@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-containershrink">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+    </div>
+    <div class="flex-containergrow">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </div>
+</body>
+</html>
+
+<!-- 
+    flex: initial = flex: 0 1 auto; (respects the height and width, it can shrink from its width and height but it can't grow beyond that if there is space available)
+    flex: auto = flex: 1 1 0%; (sizes based on the width/height but makes them fully flexible so they can fill free space along the main axis)
+    flex: none = flex 0 0 auto; (similar to 'initial' but the items cannot shrink or grow)
+    flex: <positive-number> = flex: <positive-number> 1 0%; (flex item in the container flexible which will allow the item to use the free space in the container, if
+        all items are set to this they will be proportional)
+-->
