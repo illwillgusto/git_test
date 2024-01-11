@@ -52,4 +52,44 @@
     text-decoration: none;
   }
 
+ 
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+
+  .title {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .container3{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
   
+  .info {
+    max-width: 200px; /*make this a reminder this is how you can wrap text under images, 
+    by making the width a certain px */
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+
+  
+  /* do not edit this footer */
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+  }
