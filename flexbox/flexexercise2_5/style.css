@@ -28,7 +28,6 @@ body {
 .right {
   display: flex;
   justify-content: right;
-  flex-direction: row;
   gap: 16px;
 }
 .profile-image {
